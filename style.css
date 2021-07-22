@@ -1,0 +1,44 @@
+body {
+  background-color: teal;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.row {
+  display: inline-block;
+  border-right: solid black 2px;
+}
+.col {
+  height: 5rem;
+  width: 5rem;
+  border-bottom: solid black 2px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col:last-child {
+  border-bottom: unset;
+}
+.row:last-child {
+  border-right: unset;
+}
+.container > div {
+  display: flex;
+}
+.btn {
+  margin-top: 50px;
+  height: 40px;
+  padding: 5px 20px;
+  border: solid black 2px;
+  font-size: 1.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
