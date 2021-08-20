@@ -19,7 +19,7 @@ function init() {
   score = 0;
   squares = Array.from({ length: width }, () =>
     Array.from({ length: width }, () => 0)
-  );
+  ); 
   render_game();
   put_random_value_to_random_place();
   put_random_value_to_random_place();
