@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.container {
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.scoreboard {
+    background-color: green;
+    font-size: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 650px;
+}
+.grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.rows {
+    display: flex;
+}
+.columns1 {
+    background-color: #a2d645;
+    height: 30px;
+    width: 30px;
+}
+.columns2 {
+    background-color: #8ecc39;
+    height: 30px;
+    width: 30px;
+}
